@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(192, 189, 189);
+}
+
+
+.container{
+  background-color: rgb(241, 239, 239);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.h3Titu{
+  color: rgb(72, 151, 224);
+}
+
+.mostrarBuscar{
+  display: flex;
+  align-items:left;
+}
+
+.derecha{
+position: absolute;
+margin-left: 63%;
+}
+
+.izquierda{
+  margin-left: 1%;
+}
+
+#select{
+  width: 80px;
+}
+
+#mostrarBuscar{
+  margin-top: 20px;
+}
+
+.botones{
+  font-size: 18px;
+  margin: 2%;
+}
+
+.botones .ver{
+  color: rgb(43, 91, 180);
+}
+
+.botones .editar{
+  color: green;
+}
+
+.botones .borrar{
+  color: rgb(196, 28, 28);
+}
+
+.abajo{
+  display: flex;
+  justify-content: left;
+}
+.abajo .mostrando{
+  position: absolute;
+  margin-left: 1%;
+}
+.abajo .paginacion{
+  position: absolute;
+  margin-left: 63%;
+}
+
+.abajo .au{
+  width: 200px;
+  margin-bottom: 10px;
+  margin-top: 3%;
+  margin-left: 1%;
+}
